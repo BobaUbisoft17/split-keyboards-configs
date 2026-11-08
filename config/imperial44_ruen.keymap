@@ -185,5 +185,14 @@
 
             display-name = "Adjust";
         };
+
+        new_sym {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &kp LPAR                          &kp RPAR         &trans             &trans           &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &kp LBKT                          &kp RBKT         &sk RIGHT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk RIGHT_GUI  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &trans    &trans  &kp RIGHT_BRACE  &trans             &trans           &trans         &trans         &trans
+                                &trans  &trans          &trans    &trans  &trans           &trans
+            >;
+        };
     };
 };
