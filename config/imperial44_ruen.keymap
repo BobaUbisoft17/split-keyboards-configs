@@ -188,10 +188,10 @@
 
         new_sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp LPAR                          &kp RPAR         &trans             &trans           &trans         &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &kp LBKT                          &kp RBKT         &sk RIGHT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk RIGHT_GUI  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &trans    &trans  &kp RIGHT_BRACE  &trans             &trans           &trans         &trans         &trans
-                                &trans  &trans          &trans    &trans  &trans           &trans
+&kp TILDE  &kp AT_SIGN  &kp PLUS  &kp EQUAL  &kp LESS_THAN  &kp LPAR                                   &kp RPAR         &kp GREATER_THAN   &kp UNDERSCORE   &kp MINUS      &kp CARET      &kp GRAVE
+&kp SQT    &kp POUND    &kp AMPS  &kp COLON  &kp SEMI       &kp LBKT                                   &kp RBKT         &sk RIGHT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk RIGHT_GUI  &kp DOUBLE_QUOTES
+&trans     &kp FSLH     &kp PIPE  &kp BSLH   &kp ASTRK      &kp LEFT_BRACE  &kp DOLLAR    &kp PERCENT  &kp RIGHT_BRACE  &kp COMMA          &kp DOT          &kp EXCL       &kp QMARK      &trans
+                                             &trans         &trans          &trans        &trans       &trans           &trans
             >;
         };
     };
