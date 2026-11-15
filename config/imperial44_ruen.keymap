@@ -147,7 +147,7 @@
             bindings = <
 &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4   &kp KP_NUMBER_5                          &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &trans
 &trans  &sk LEFT_GUI     &sk LEFT_ALT     &sk LEFT_SHIFT   &sk LEFT_CONTROL  &trans                                   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &trans           &trans
-&trans  &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT   &trans           &mkp LCLK    &mkp RCLK  &trans           &trans           &trans           &trans           &trans           &trans
+&trans  &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT   &trans           &mkp LCLK    &mkp RCLK  &trans           &trans           &trans           &trans           &kp KP_NUM       &trans
                                                            &kp LEFT_CONTROL  &trans           &trans       &trans     &mo 5            &trans
             >;
 
@@ -188,10 +188,10 @@
 
         new_sym {
             bindings = <
-&kp TILDE  &kp AT_SIGN  &kp PLUS  &kp EQUAL  &kp LESS_THAN  &kp LPAR                                   &kp RPAR         &kp GREATER_THAN   &kp UNDERSCORE   &kp MINUS      &kp CARET      &kp GRAVE
-&kp SQT    &kp POUND    &kp AMPS  &kp COLON  &kp SEMI       &kp LBKT                                   &kp RBKT         &sk RIGHT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk RIGHT_GUI  &kp DOUBLE_QUOTES
-&trans     &kp FSLH     &kp PIPE  &kp BSLH   &kp ASTRK      &kp LEFT_BRACE  &kp DOLLAR    &kp PERCENT  &kp RIGHT_BRACE  &kp COMMA          &kp DOT          &kp EXCL       &kp QMARK      &trans
-                                             &trans         &trans          &trans        &trans       &trans           &trans
+&kp TILDE  &kp HASH   &kp PLUS  &kp DQT    &kp LESS_THAN  &kp LPAR                                   &kp RPAR         &kp GREATER_THAN   &kp MINUS        &kp AMPS       &kp PIPE       &kp SINGLE_QUOTE
+&kp CARET  &kp BSLH   &kp AT    &kp EQUAL  &kp SEMI       &kp LBKT                                   &kp RBKT         &sk RIGHT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk RIGHT_GUI  &kp GRAVE
+&trans     &kp ASTRK  &kp FSLH  &kp UNDER  &kp COLON      &kp LEFT_BRACE  &kp DOLLAR    &kp PERCENT  &kp RIGHT_BRACE  &kp DOT            &kp COMMA        &kp EXCL       &kp QMARK      &trans
+                                           &trans         &trans          &trans        &trans       &trans           &trans
             >;
         };
     };
